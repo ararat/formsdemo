@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/suncorpforms" mode="merge"/>
+    <filter root="/content/suncorpforms" mode="merge"/>
+    <filter root="/content/dam/suncorpforms" mode="merge">
+        <exclude pattern="/content/dam/suncorpforms(/.*)?"/>
+        <include pattern="/content/dam/suncorpforms/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/suncorpforms/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/suncorpforms" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/suncorpforms" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/suncorpforms" mode="merge"/>
+    <filter root="/content/dam/suncorpforms/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/suncorpforms/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/suncorpforms/wknd_logo.png" mode="merge"/>
+    <filter root="/content/dam/suncorpforms/af_model_sample.json" mode="merge"/>
+</workspaceFilter>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/suncorpforms/clientlibs"/>
+    <filter root="/apps/suncorpforms/components"/>
+    <filter root="/apps/suncorpforms/i18n"/>
+
+</workspaceFilter>
